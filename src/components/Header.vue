@@ -28,6 +28,7 @@ export default {
     h1{
         font-weight: bolder;
         margin-left: 30px;
+        color: white;
     }
     #nav {
     padding: 30px;

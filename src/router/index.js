@@ -13,7 +13,7 @@ Vue.use(VueRouter)
   {
     path: '/credits',
     name: 'Credits',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Credits.vue')
+    component: () => import(/* webpackChunkName: "credits" */ '../views/Credits.vue')
   }
 ]
 

@@ -43,7 +43,7 @@ export default {
     #chapters{
         position: fixed;
         top: 60px;
-        height: 90vh;
+        height: 800px;
         width: 160px;
         border: 2px solid green;
         margin-top: 10px;
@@ -51,11 +51,15 @@ export default {
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+        list-style: square outside;
+        color: green;
     }
     #chapters li{
         padding: 10px;
+        max-width: 60%;
     }
     #chapters a{
+        font-size: 18px;
         color: green;
     }
     #chapters a.router-link-exact-active{
