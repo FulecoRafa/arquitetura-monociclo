@@ -54,6 +54,10 @@ export default {
         list-style: square outside;
         color: green;
     }
+    #chapters *::selection{
+        background-color: green;
+        color: white;
+    }
     #chapters li{
         padding: 10px;
         max-width: 60%;
@@ -64,5 +68,9 @@ export default {
     }
     #chapters a.router-link-exact-active{
         color: #f4f815;
+    }
+    #chapters a.router-link-exact-active::selection{
+        background-color: #f4f815;
+        color: black;
     }
 </style>

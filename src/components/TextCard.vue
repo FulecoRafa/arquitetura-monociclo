@@ -18,4 +18,8 @@ export default {
         border: 2px solid green;
         padding: 15px;
     }
+    .card *::selection{
+        background-color: green;
+        color: white;
+    }
 </style>

@@ -1,29 +1,25 @@
 <template>
   <div class="home">
     <ChapterBar/>
-    <TextCard>
-      <Title big>A biologia dos computadores</Title>
-      <Title>Introdução</Title>
-    </TextCard>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 import ChapterBar from '@/components/ChapterBar.vue';
-import TextCard from '@/components/TextCard.vue';
-import Title from '@/components/Title';
 
 export default {
   name: 'Home',
   components: {
-    ChapterBar,
-    TextCard,
-    Title
+    ChapterBar
   }
   
 }
 </script>
 
 <style scoped>
-
+  *{
+    color: green;
+    text-align: left;
+  }
 </style>
