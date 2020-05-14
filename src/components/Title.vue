@@ -1,7 +1,9 @@
 <template>
   <div class="title">
-    <h1 :style="{'font-size': font}"><slot></slot></h1>
-    <div class="cursor" v-if="showCursor" :style="{'margin-top': margin }"></div>
+    <h1 :style="{'font-size': font}">
+        <slot></slot>
+        <span class="cursor" v-if="showCursor" :style="{'margin-top': margin }"></span>
+    </h1>
   </div>
 </template>
 
@@ -45,6 +47,7 @@ export default {
         font-size: 23px;
     }
     .cursor{
+        display: inline-block;
         background: green;
         margin: 20px 0 0 5px;
         width: 15px;

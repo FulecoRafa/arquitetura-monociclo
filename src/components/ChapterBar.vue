@@ -73,4 +73,10 @@ export default {
         background-color: #f4f815;
         color: black;
     }
+    @media screen and (max-width: 700px) {
+        #chapters{
+            visibility: hidden;
+            left: -100%;
+        }
+    }
 </style>

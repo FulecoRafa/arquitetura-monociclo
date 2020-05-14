@@ -2,7 +2,7 @@
   <header>
       <h1>Arquitetura monociclo</h1>
       <div id="nav">
-          <router-link to='/'>Home</router-link> |
+          <router-link to='/'>Artigo</router-link> |
           <router-link to="/credits">Créditos</router-link>
       </div>
   </header>

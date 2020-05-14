@@ -22,4 +22,10 @@ export default {
         background-color: green;
         color: white;
     }
+    @media screen and (max-width: 700px){
+        .card{
+            max-width: unset;
+            margin-left: 0;
+        }
+    }
 </style>
