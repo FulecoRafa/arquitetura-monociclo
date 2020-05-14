@@ -22,4 +22,10 @@ export default {
     color: green;
     text-align: left;
   }
+  *:focus{
+    outline: none;
+  }
+  *::-moz-focus-inner{
+    outline: none;
+  }
 </style>

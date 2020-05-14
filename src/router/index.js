@@ -13,6 +13,11 @@ Vue.use(VueRouter)
         name: 'Introduction',
         path: '',
         component: () => import(/* webpackChunckName: "introduction"*/ '../views/Introduction.vue')
+      },
+      {
+        name: 'NotFound',
+        path: '/404',
+        component: () => import(/* webpackChunckName: "introduction"*/ '../views/NotFound.vue')
       }
     ]
   },
@@ -20,6 +25,10 @@ Vue.use(VueRouter)
     path: '/credits',
     name: 'Credits',
     component: () => import(/* webpackChunkName: "credits" */ '../views/Credits.vue')
+  },
+  {
+    path: '*',
+    redirect: '/404'
   }
 ]
 

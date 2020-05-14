@@ -16,7 +16,7 @@ export default {
         max-width: 88%;
         margin: 10px 0 0 180px;
         border: 2px solid green;
-        padding: 15px;
+        padding: 25px;
     }
     .card *::selection{
         background-color: green;

@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-        <p><slot></slot><span>{{cont}}</span></p>
+        <p><slot></slot><span class="block">{{cont}}</span></p>
   </div>
 </template>
 
@@ -34,7 +34,7 @@ export default {
     .content p{
         line-height: 2;
     }
-    .content p span{
+    .block{
         color: green;
         background: green;
         height: 1em;
