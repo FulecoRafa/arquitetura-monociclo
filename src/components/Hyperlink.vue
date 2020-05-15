@@ -29,9 +29,14 @@ export default {
         content: '🔗';
         padding: 0 3px;
     }
+    a::selection{
+        background: white;
+        color: black;
+    }
     .hover{
         display: none;
-        border: 2px solid green;
+        font-size: 0.87em;
+        border: 2px solid greenyellow;
         width: 200px;
         padding: 10px;
         position: absolute;

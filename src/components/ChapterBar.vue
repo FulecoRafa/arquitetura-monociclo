@@ -45,14 +45,14 @@ export default {
         top: 60px;
         height: 800px;
         width: 160px;
-        border: 2px solid green;
+        border: 2px solid greenyellow;
         margin-top: 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
         list-style: square outside;
-        color: green;
+        color: greenyellow;
     }
     #chapters *::selection{
         background-color: green;
@@ -64,7 +64,7 @@ export default {
     }
     #chapters a{
         font-size: 18px;
-        color: green;
+        color: greenyellow;
     }
     #chapters a.router-link-exact-active{
         color: #f4f815;

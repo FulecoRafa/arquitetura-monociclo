@@ -40,6 +40,10 @@ export default {
     .button a{
         color: #55ffff;
     }
+    .button a::selecion{
+        background: #55ffff;
+        color: black;
+    }
     .button div{
         border: 1px solid #55ffff;
         border-radius: 50%;

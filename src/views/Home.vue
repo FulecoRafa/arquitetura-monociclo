@@ -19,7 +19,7 @@ export default {
 
 <style scoped>
   *{
-    color: green;
+    color: greenyellow;
     text-align: left;
   }
   *:focus{

@@ -35,8 +35,8 @@ export default {
         line-height: 2;
     }
     .block{
-        color: green;
-        background: green;
+        color: greenyellow;
+        background: greenyellow;
         height: 1em;
         width: 0.6em;
     }

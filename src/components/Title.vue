@@ -43,12 +43,12 @@ export default {
         margin-bottom: 25px;
     }
     h1{
-        color: green;
+        color: greenyellow;
         font-size: 23px;
     }
     .cursor{
         display: inline-block;
-        background: green;
+        background: greenyellow;
         margin: 20px 0 0 5px;
         width: 15px;
         height: 4px;
