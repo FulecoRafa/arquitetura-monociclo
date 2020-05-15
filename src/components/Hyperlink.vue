@@ -1,7 +1,10 @@
 <template>
   <span class="linkWrap">
       <a :href="to" target="_blank"><slot></slot></a>
-      <div class="hover" v-if="info">{{info}}</div>
+      <div class="hover" v-if="info">
+          {{info}}
+          <br><br><span class="click">Clique para saber mais!</span>
+      </div>
   </span>
 </template>
 
@@ -48,5 +51,8 @@ export default {
     }
     a:hover + .hover{
         display: inline;
+    }
+    .click{
+        font-size: 0.84rem;
     }
 </style>

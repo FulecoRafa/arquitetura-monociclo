@@ -1,13 +1,18 @@
 <template>
   <div class="card">
+      <Title big>A biologia dos computadores</Title>
       <slot></slot>
   </div>
 </template>
 
 <script>
+import Title from '@/components/Title.vue';
 
 export default {
-    name: "TextCard"
+    name: "TextCard",
+    components: {
+        Title
+    }
 }
 </script>
 

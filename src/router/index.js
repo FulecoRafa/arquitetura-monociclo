@@ -15,6 +15,16 @@ Vue.use(VueRouter)
         component: () => import(/* webpackChunckName: "introduction"*/ '../views/Introduction.vue')
       },
       {
+        name: 'Níveis de Máquina',
+        path: '/niveis-de-maquina',
+        component: () => import(/*webpackChuckName: "niveis_de_maquina"*/ '../views/Niveis.vue')
+      },
+      {
+        name: 'Uma Arquitetura Simples',
+        path: '/arquitetura-simples',
+        component: () => import(/*webpackChuckName: "niveis_de_maquina"*/ '../views/Arquitetura.vue')
+      },
+      {
         name: 'NotFound',
         path: '/404',
         component: () => import(/* webpackChunckName: "introduction"*/ '../views/NotFound.vue')
