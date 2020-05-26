@@ -1,5 +1,6 @@
 <template>
     <TextCard>
+        <NavButton prev='/niveis-de-maquina' next='/cerebro-faz'></NavButton>
         <Title>Entendendo uma arquitetura simples</Title>
         <Content>
             Para não dificultar o entendimento, falaremos sobre a arquitetura RISC MIPS, que é uma das mais simples. Mas o que essa sigla significa?

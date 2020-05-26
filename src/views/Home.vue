@@ -1,7 +1,9 @@
 <template>
   <div class="home">
     <ChapterBar/>
-    <router-view></router-view>
+    <transition name="article-page">
+      <router-view></router-view>
+    </transition>
   </div>
 </template>
 
@@ -27,5 +29,41 @@ export default {
   }
   *::-moz-focus-inner{
     outline: none;
+  }
+
+  .article-page-enter-active{
+    animation: zoomOutBottom 0.75s both;
+    animation-delay: 0.75s;
+  }
+  .article-page-leave-active{
+    animation: zoomOutTop 0.75s;
+  }
+  @keyframes zoomOutTop{
+    0%{
+      scale: 1;
+      transform: translateY(0);
+    }
+    70%{
+      scale: 0.4;
+      transform: translateY(-50%);
+    }
+    100%{
+      scale: 0.4;
+      transform: translateY(-300%);
+    }
+  }
+  @keyframes zoomOutBottom{
+    0%{
+      scale: 0.4;
+      transform: translateY(300%);
+    }
+    70%{
+      scale: 0.4;
+      transform: translateY(-50%);
+    }
+    100%{
+      scale: 1;
+      transform: translateY(0);
+    }
   }
 </style>

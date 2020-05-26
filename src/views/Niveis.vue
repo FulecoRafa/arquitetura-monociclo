@@ -1,6 +1,6 @@
 <template>
     <TextCard>
-        <!-- <Title big>A biologia dos computadores</Title> -->
+        <NavButton prev='/' next='/arquitetura-simples'></NavButton>
         <Title>Níveis de Máquina</Title>
         <Content>
             Para que o nosso diálogo com a máquina chegue de fato em sua estrutura física, um longo caminho é feito. Quando as operações se aproximam do ser humano, chamamos de <Bold bolder>alto nível</Bold>; quando se aproxima da máquina, chamamos de <Bold bolder>baixo nível</Bold>.

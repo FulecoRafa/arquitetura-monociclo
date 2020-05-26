@@ -1,6 +1,6 @@
 <template>
     <TextCard>
-        <!-- <Title big>A biologia dos computadores</Title> -->
+        <NavButton prev='/arquitetura-simples' next='/cerebro-como'></NavButton>
         <Title>O que faz o cérebro da máquina?</Title>
         <Content>
             Até aqui vimos a estrutura de um computador, mas o que fazer com ela?

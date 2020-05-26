@@ -30,7 +30,7 @@ export default {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-top: 15px;
+        margin: 25px 0;
     }
     .button{
         display: flex;

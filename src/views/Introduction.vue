@@ -1,6 +1,6 @@
 <template>
     <TextCard>
-        <!-- <Title big>A biologia dos computadores</Title> -->
+        <NavButton next='/niveis-de-maquina'></NavButton>
         <Title>Introdução</Title>
         <Content>
             Você já teve a curiosidade de saber como funcionam os nossos dispositivos eletrônicos, como os nossos <Bold>smartphones</Bold> e <Bold>laptops</Bold>? Mesmo que você seja um programador e já tenha noção de como funcionam as coisas em alto nível, você sabe como suas instruções de C, Java e Python são traduzidas para o computador até chegar nos sinais elétricos do <Hyperlink to="https://pt.wikipedia.org/wiki/Hardware" info="A parte física do computador, que torna a execução da parte lógica possível na máquina">hardware</Hyperlink>?
