@@ -24,6 +24,8 @@ export default {
         flex-wrap: nowrap;
         width: 100%;
         height: 60px;
+        position: fixed;
+        top: 0;
     }
     header *::selection{
         background-color: white;
@@ -47,10 +49,10 @@ export default {
         color: #f4f815;
     }
 
-    #nav a.router-link-exact-active {
+    #nav a.router-link-active {
     color: #f4f815;
     }
-    #nav a.router-link-exact-active::selection{
+    #nav a.router-link-active::selection{
         background-color: #f4f815;
         color: rgb(91, 184, 37);
         text-decoration-color: rgb(91, 184, 37);

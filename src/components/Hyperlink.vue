@@ -45,7 +45,7 @@ export default {
         position: absolute;
         background: black;
         z-index: 100;
-        left: 120%;
+        left: calc(-20% - 200px);
         top: 50%;
         transform: translate(0, -100%);
     }

@@ -6,64 +6,148 @@ export const regs = {
     ],
     data:[
         [
-            "$0",
-            "$r0",
-            "Valor zero. É útil em certas operações."
+            {
+                text:"$0"
+            },
+            {
+                text:"$r0"
+            },
+            {
+                bold:"Valor zero.",
+                text: "É útil em certas operações."
+            }
         ],
         [
-            "$1",
-            "$at",
-            "Assembler. Trabalha diret. com o montador."
+            {
+                text:"$1"
+            },
+            {
+                text:"$at"
+            },
+            {
+                bold: "Assembler.",
+                text: "Trabalha diret. com o montador."
+            }
         ],
         [
-            "$2 - $3",
-            "$v0 - $v1",
-            "Retorno. Usado para retornar valores."
+            {
+                text:"$2 - $3"
+            },
+            {
+                text:"$v0 - $v1"
+            },
+            {
+                bold: "Retorno.",
+                text: "Usado para retornar valores."
+            }
         ],
         [
-            "$4 - $7",
-            "$a0 - $a3",
-            "Argumento. Usado para entrar valores."
+            {
+                text:"$4 - $7"
+            },
+            {
+                text:"$$a0 - $a3"
+            },
+            {
+                bold: "Argumento.",
+                text: "Usado para entrar valores."
+            }
         ],
         [
-            "$8 - $15",
-            "$t0 - $t7",
-            "Temporário. Valor muda a cada chamada."
+            {
+                text:"$8 - $15"
+            },
+            {
+                text:"$t0 - $t7"
+            },
+            {
+                bold: "Temporário.",
+                text: "Valor muda a cada chamada."
+            }
         ],
         [
-            "$16 - $23",
-            "$s0 - $s7",
-            "Salvo. Valor não muda a cada chamada."
+            {
+                text:"$16 - $23"
+            },
+            {
+                text:"$s0 - $s7"
+            },
+            {
+                bold: "Salvo.",
+                text: "Valor não muda a cada chamada."
+            }
         ],
         [
-            "$24 - $25",
-            "$t8 -$t9",
-            "Temporário. Valor muda a cada chamada."
+            {
+                text:"$24 - $25"
+            },
+            {
+                text:"$t8 -$t9"
+            },
+            {
+                bold: "Temporário.",
+                text: "Valor muda a cada chamada."
+            }
         ],
         [
-            "$26 - $27",
-            "$k0 - $k1",
-            "Kernell. Trabalha diret. com o sist. operacional."
+            {
+                text:"$26 - $27"
+            },
+            {
+                text:"$k0 - $k1"
+            },
+            {
+                bold: "Kernell.",
+                text: "Trabalha diret. com o sist. operacional."
+            }
         ],
         [
-            "$28",
-            "$gp",
-            "Global pointer. Aponta para dados estáticos."
+            {
+                text:"$28"
+            },
+            {
+                text:"$gp"
+            },
+            {
+                bold: "Global pointer.",
+                text: "Aponta para dados estáticos."
+            }
         ],
         [
-            "$29",
-            "$sp",
-            "Stack pointer. Aponta para a pilha de mem."
+            {
+                text:"$29"
+            },
+            {
+                text:"$sp"
+            },
+            {
+                bold: "Stack pointer.",
+                text: "Aponta para a pilha de mem."
+            }
         ],
         [
-            "$30",
-            "$fp",
-            "Frame pointer. Apt. p/ conj. dados na pilha."
+            {
+                text:"$30"
+            },
+            {
+                text:"$fp"
+            },
+            {
+                bold: "Frame pointer.",
+                text: "Apt. p/ conj. dados na pilha."
+            }
         ],
         [
-            "$31",
-            "$ra",
-            "Return address. Desvio da execução."
+            {
+                text:"$31"
+            },
+            {
+                text:"$ra"
+            },
+            {
+                bold: "Return address.",
+                text: "Desvio da execução."
+            }
         ],
 
     ]

@@ -25,6 +25,11 @@ Vue.use(VueRouter)
         component: () => import(/*webpackChuckName: "niveis_de_maquina"*/ '../views/Arquitetura.vue')
       },
       {
+        name: 'O que faz o cérebro da máquina?',
+        path: '/cerebro-faz',
+        component: () => import(/*webpackChuckName: "niveis_de_maquina"*/ '../views/CerebroFaz.vue')
+      },
+      {
         name: 'NotFound',
         path: '/404',
         component: () => import(/* webpackChunckName: "introduction"*/ '../views/NotFound.vue')
