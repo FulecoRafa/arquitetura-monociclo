@@ -3,7 +3,13 @@
         <NavButton prev='/cerebro-como'></NavButton>
         <Title>Agora você sabe!</Title>
         <Content>
-            Antes de começar a ler, pode ser que você não sabia como era dentro de um computador. Mas agora você sabe qual é a língua que ele entende, quais são seus órgãos, como funcionam e o que ele pode fazer. Também sabe como foram feitas as linguagens de programação, já que viu como elas são traduzidas para a máquina. Agora você sabe o que está dentro desse objeto tão misterioso e também que as máquinas são mais parecidas com nós do que você provavelmente pensava. 
+            Com essa pequena leitura você aprendeu que:
+<br>-Um aparelho eletrônico requer corrente elétrica para informar a cada componente o que deve ser feito
+<br>-A RAM é um circuito integrado, portanto se você tirar a alimentação do computador, os programas que estavam em execução são perdidos
+<br>-O HD e SSD são discos magnéticos e as informações continuam armazenadas mesmo sem energia elétrica
+<br>-As linguagens de programação em alto nível foram criadas transformando texto em sinais altos e baixos de corrente elétrica
+<br>-Mesmo na arquitetura mais simples, são necessárias 5 fases de execução da instrução
+<br>Agora você sabe como funciona seu computador. Esperamos que a leitura tenha sido proveitosa e agradecemos a visita.
         </Content>
         <NavButton prev='/cerebro-como'></NavButton>
     </TextCard>
