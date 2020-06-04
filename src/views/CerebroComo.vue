@@ -3,14 +3,14 @@
         <NavButton prev='/cerebro-faz' next='/end'></NavButton>
         <Title>Como funciona o cérebro da máquina?</Title>
         <Content>
-            Agora que você já sabe os órgãos e as possíveis ações só falta saber uma coisa: como elas acontecem? Temos de olhar para os componentes do processador. Essa é a vista geral dele, retirada do livro “<Bold>Computer organization and design</Bold>” de David Patterson (Ele criou o MIPS. Não sozinho, é claro.) e John Hennessy. Dependendo das operações desejadas, é preciso alterar a arquitetura.
+            Agora que você já sabe os órgãos e as possíveis ações só falta saber uma coisa: como elas acontecem? Temos de olhar para os componentes do processador. Dependendo das operações desejadas, é preciso alterar a arquitetura. Mas como foi dito anteriormente, estamos tentando entender uma das arquiteturas mais simples. Essa é a cara dela:
             <br><img src="@/assets/Arquitetura.png" alt="arquitetura">
             <br><br>Parece confuso, mas vamos ver cada um dos componentes.
             <br><br>Sabe essas instruções que acabamos de ver? Elas ficam armazenadas em ordem na memória principal (“memória de curto prazo”). Sabendo disso, podemos começar a descrever o ciclo de execução de instruções:
             <ol>
                 <Title>=> Fase de busca de instrução:</Title>
-                <li>Um componente do processador(“cérebro”) chamado contador de programa (PC - <Bold>program counter</Bold>, na imagem) armazena o endereço de memória da próxima instrução a ser executada.</li>
-                <li>A unidade de controle (“cérebro do cérebro”) emite um sinal para que esse endereço de memória seja lido e seu conteúdo armazenado no registrador de instrução (<Bold>instruction memory</Bold>, na imagem)</li>
+                <li>Um componente do processador(“cérebro”) chamado contador de programa armazena o endereço de memória da próxima instrução a ser executada.</li>
+                <li>A unidade de controle (“cérebro do cérebro”) emite um sinal para que esse endereço de memória seja lido e seu conteúdo armazenado no registrador de instrução</li>
                 <li>Esse endereço também é enviado a um somador (<Bold>add</Bold>, na imagem), que é somado com 4 <Bold>bytes</Bold>, já que 1 <Bold>byte</Bold> é 8 <Bold>bits</Bold> e a arquitetura é de 32 <Bold>bits</Bold>. Se não houver instrução de desvio, então esse novo endereço será enviado pelos barramentos até um multiplexador (mux, na imagem), que o enviará de volta para o contador de programa. Assim, a próxima instrução será executada quando essa terminar.</li>
 
                 <Title>=> Fase de busca de registradores e decodificação da instrução:</Title>

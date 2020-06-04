@@ -21,31 +21,30 @@
             <Table :info="deviationInstructionTable"></Table>
             <br><br>Para exemplificar o que vimos, vamos transformar um código simples de C em Assembly, e de Assembly para código binário.
             
-            <br><br><Coding data="//função exemplo com 2 parâmetros inteiros a, b
-
-                int exemplo(int a, int b) {
-                    //declara-se uma variável inteira c
-                    int c;		
-                    //o valor de c é a + b
-                    c = a + b;	
-                    //retorna o valor de c
-                    return c;	
-                }"></Coding>
+            <br><br><Coding data="//função que retorna a diferença entre as somas de dados 4 valores
+            int exemplo(int a, int b, int c, int d) 
+            {
+                return (g+h) - (i+j);
+            }
+            "></Coding>
             <Title>=> C</Title>
-            <Coding data="#rótulo exemplo
-                        exemplo:		
-                        #se a e b foram passados nos registradores de argumentos
-                        #usa a instrução add, armazenando o valor de a e b no registrador
-                        #temporário t0
-                        add $t0, $a0, $a1	
-                        #o valor de t0 é armazenado no registrador de retorno v0
-                        lw $v0, $t0
-                        #retorna-se para o endereço logo após onde a instrução foi chamada
-                        jr $ra"></Coding>
+            <Coding data="#assumimos que a foi armazenado em $a0, b em $a1, c em $a2 e d em $a3
+            #rótulo:
+            exemplo:
+            #a soma de a e b é armazenada em $t0
+            add $t0, $a0, $a1
+            #a soma de c e d é armazenada em $t1
+            add $t1, $a2, $a3
+            #(a+b)-(c+d) é armazenado em $v0
+            sub $v0, $t0, $t1
+            #fim, retorna para o ponto de onde a função foi chamada
+            jr $ra
+            #fim do código Assembly
+            "></Coding>
             <Title>=> Assembly</Title>
-            <Coding data="00000000100001010100000000100000100011010000001000000000000011111000000000000000001000"></Coding>
+            <Coding data="00000000100001010100000000100000000000001100011101001000001000000000000100001001000100000010001000000011111000000000000000001000"></Coding>
             <Title>=> Bits</Title>
-            É “só” isso que acontece para somar dois inteiros.
+            É “só” isso que acontece para somar dois inteiros. Imagine operações mais complexas!
         </Content>
         <NavButton prev='/arquitetura-simples' next='/cerebro-como'></NavButton>
     </TextCard>
