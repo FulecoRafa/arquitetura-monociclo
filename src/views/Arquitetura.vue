@@ -1,6 +1,6 @@
 <template>
     <TextCard>
-        <NavButton prev='/niveis-de-maquina' next='/cerebro-faz'></NavButton>
+        <NavButton prev='/article/niveis-de-maquina' next='/article/cerebro-faz'></NavButton>
         <Title>Entendendo uma arquitetura simples</Title>
         <Content>
             Para não dificultar o entendimento, falaremos sobre a arquitetura <Hyperlink to="https://pt.wikipedia.org/wiki/RISC" info="Reduced Instruction Set Computer, que significa computador com conjunto reduzido de instruções">RISC</Hyperlink> <Hyperlink to="https://pt.wikipedia.org/wiki/Arquitetura_MIPS" info="Microprocessor without interlocked pipeline stages, que significa microprocessador sem estágios intertravados de pipeline">MIPS</Hyperlink>, que é uma das mais simples, principalmente por ser monociclo, o que significa que só se executa uma instrução por vez. Para se executar mais de uma instrução ao mesmo tempo seria necessário o uso de <Hyperlink to="https://pt.wikipedia.org/wiki/Pipeline_(hardware)" info="Técnica que organiza a ordem das operações para evitar desperdiçar tempo e, dessa forma, consegue melhorar o desempenho do computador">pipeline</Hyperlink>.
@@ -23,7 +23,7 @@
             <br><br>Para que tudo funcione em sincronia, há o <Bold bolder>clock</Bold> que controla o ritmo das operações e evita que tudo entre em colapso. Na arquitetura MIPS, que veremos a seguir, pode ser que ele não seja tão vital, mas em uma arquitetura com <Bold>pipeline</Bold> ele é necessário para não se desorganizar a ordem dos processos. O <Bold>clock</Bold> é a propriedade que você vê quando vai comprar um <Bold>notebook</Bold> e está escrito “processador de 3GHz”, por exemplo. Ele é a frequência em <Hyperlink to="https://pt.wikipedia.org/wiki/Hertz" info="Unidade de medida de ciclos por segundo">Hertz</Hyperlink> de quantos ciclos de instrução podem ser feitos por segundo. Um ciclo de instrução é o uso de todos os componentes para executar uma instrução. No caso de uma arquitetura com pipeline, em que mais de uma instrução será executada ao mesmo tempo, o tempo do clock será 5 vezes o tempo da fase de execução mais longa. 
             <br><br>Por fim, há os “órgãos” externos do computador, que são os <Bold bolder>dispositivos E/S</Bold>. Dispositivos de entrada trazem dados do mundo exterior para o computador, como o teclado, o <Bold>mouse</Bold>, as mesas digitalizadoras, a <Bold>webcam</Bold> e o microfone, e dispositivos de saída retornam dados para o usuário, como o monitor, as caixas de som e fones de ouvido, e as impressoras.
         </Content>
-        <NavButton prev='/niveis-de-maquina' next='/cerebro-faz'></NavButton>
+        <NavButton prev='/article/niveis-de-maquina' next='/article/cerebro-faz'></NavButton>
     </TextCard>
 </template>
 

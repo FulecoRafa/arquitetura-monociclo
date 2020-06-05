@@ -34,6 +34,7 @@ export default {
     }
     .codeLine{
         display: flex;
+				white-space: pre;
     }
     .lineCount{
         width: 3em;

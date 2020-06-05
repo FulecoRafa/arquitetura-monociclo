@@ -12,27 +12,27 @@ export default {
         chapters: [
             {
                 name: "Introdução",
-                link: '/'
+                link: '/article'
             },
             {
                 name: "Níveis de máquina",
-                link: '/niveis-de-maquina'
+                link: '/article/niveis-de-maquina'
             },
             {
                 name: "Entendendo uma arquitetura simples",
-                link: '/arquitetura-simples'
+                link: '/article/arquitetura-simples'
             },
             {
                 name: "O que faz o cérebro da máquina?",
-                link: '/cerebro-faz'
+                link: '/article/cerebro-faz'
             },
             {
                 name: "Como funciona o cérebro da máquina?",
-                link: '/cerebro-como'
+                link: '/article/cerebro-como'
             },
             {
                 name: "Agora você sabe!!!",
-                link: '/end'
+                link: '/article/end'
             }
         ]
     })

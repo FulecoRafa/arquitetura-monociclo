@@ -2,7 +2,9 @@
   <div id="app">
     <Header>
     </Header>
-    <router-view/>
+    <transition name="main">
+      <router-view/>
+    </transition>
   </div>
 </template>
 
@@ -32,5 +34,20 @@ body{
   text-align: center;
 }
 
+.main-enter-active{
+  animation: blur 0.3s both reverse;
+  animation-delay: 0.3s;
+}
+.main-leave-active{
+  animation: blur 0.3s both;
+}
+@keyframes blur{
+  0%{
+    filter: blur(0);
+  }
+  100%{
+    filter: blur(10px);
+  }
+}
 
 </style>

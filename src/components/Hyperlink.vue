@@ -20,6 +20,7 @@ export default {
 <style scoped>
     .linkWrap{
         position: relative;
+        /* z-index: -1; */
     }
     a{
         color: white;

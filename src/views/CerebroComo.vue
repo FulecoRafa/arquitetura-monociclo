@@ -1,6 +1,6 @@
 <template>
     <TextCard>
-        <NavButton prev='/cerebro-faz' next='/end'></NavButton>
+        <NavButton prev='/article/cerebro-faz' next='/article/end'></NavButton>
         <Title>Como funciona o cérebro da máquina?</Title>
         <Content>
             Agora que você já sabe os órgãos e as possíveis ações só falta saber uma coisa: como elas acontecem? Temos de olhar para os componentes do processador. Dependendo das operações desejadas, é preciso alterar a arquitetura. Mas como foi dito anteriormente, estamos tentando entender uma das arquiteturas mais simples. Essa é a cara dela:
@@ -35,7 +35,7 @@
             </ol>
             <br><br>Para ilustrar esse processo, vamos descrever o caminho dos dados de instruções e mostrar esse trajeto na arquitetura: <router-link to="/simulation">Acesse aqui o simulador!</router-link>
         </Content>
-        <NavButton prev='/cerebro-faz' next='/end'></NavButton>
+        <NavButton prev='/article/cerebro-faz' next='/article/end'></NavButton>
     </TextCard>
 </template>
 

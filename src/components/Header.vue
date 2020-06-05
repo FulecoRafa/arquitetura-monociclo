@@ -1,9 +1,9 @@
 <template>
   <header>
-      <h1>Arquitetura monociclo</h1>
+      <h1>Arquitetura Monociclo</h1>
       <div id="nav">
-          <router-link to='/'>Artigo</router-link> |
-          <router-link to='/simulation'>Simulador</router-link> |
+          <router-link to='/article'>Artigo</router-link> |
+          <router-link to='/simulator'>Simulador</router-link> |
           <router-link to="/credits">Créditos</router-link>
       </div>
   </header>
@@ -27,6 +27,7 @@ export default {
         height: 60px;
         position: fixed;
         top: 0;
+        z-index: 20;
     }
     header *::selection{
         background-color: white;

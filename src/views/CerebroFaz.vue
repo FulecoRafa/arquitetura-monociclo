@@ -1,6 +1,6 @@
 <template>
     <TextCard>
-        <NavButton prev='/arquitetura-simples' next='/cerebro-como'></NavButton>
+        <NavButton prev='/article/arquitetura-simples' next='/article/cerebro-como'></NavButton>
         <Title>O que faz o cérebro da máquina?</Title>
         <Content>
             Até aqui vimos a estrutura de um computador, mas o que fazer com ela?
@@ -22,11 +22,11 @@
             <br><br>Para exemplificar o que vimos, vamos transformar um código simples de C em Assembly, e de Assembly para código binário.
             
             <br><br><Coding data="//função que retorna a diferença entre as somas de dados 4 valores
-            int exemplo(int a, int b, int c, int d) 
-            {
-                return (g+h) - (i+j);
-            }
-            "></Coding>
+
+  int exemplo(int a, int b, int c, int d)
+  {
+      return (g+h) - (i+j);
+  }"></Coding>
             <Title>=> C</Title>
             <Coding data="#assumimos que a foi armazenado em $a0, b em $a1, c em $a2 e d em $a3
             #rótulo:
@@ -46,7 +46,7 @@
             <Title>=> Bits</Title>
             É “só” isso que acontece para somar dois inteiros. Imagine operações mais complexas!
         </Content>
-        <NavButton prev='/arquitetura-simples' next='/cerebro-como'></NavButton>
+        <NavButton prev='/article/arquitetura-simples' next='/article/cerebro-como'></NavButton>
     </TextCard>
 </template>
 

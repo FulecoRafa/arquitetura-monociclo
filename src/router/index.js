@@ -6,7 +6,7 @@ Vue.use(VueRouter)
 
   const routes = [
   {
-    path: '/',
+    path: '/article',
     component: Home,
     children: [
       {
@@ -16,27 +16,27 @@ Vue.use(VueRouter)
       },
       {
         name: 'Níveis de Máquina',
-        path: '/niveis-de-maquina',
+        path: '/article/niveis-de-maquina',
         component: () => import(/*webpackChuckName: "niveis_de_maquina"*/ '../views/Niveis.vue')
       },
       {
         name: 'Uma Arquitetura Simples',
-        path: '/arquitetura-simples',
+        path: '/article/arquitetura-simples',
         component: () => import(/*webpackChuckName: "niveis_de_maquina"*/ '../views/Arquitetura.vue')
       },
       {
         name: 'O que faz o cérebro da máquina?',
-        path: '/cerebro-faz',
+        path: '/article/cerebro-faz',
         component: () => import(/*webpackChuckName: "niveis_de_maquina"*/ '../views/CerebroFaz.vue')
       },
       {
         name: 'Como funciona o cérebro da máquina?',
-        path: '/cerebro-como',
+        path: '/article/cerebro-como',
         component: () => import(/*webpackChuckName: "niveis_de_maquina"*/ '../views/CerebroComo.vue')
       },
       {
         name: 'Agora você sabe!',
-        path: '/end',
+        path: '/article/end',
         component: () => import(/*webpackChuckName: "niveis_de_maquina"*/ '../views/End.vue')
       },
       {
@@ -45,6 +45,15 @@ Vue.use(VueRouter)
         component: () => import(/* webpackChunckName: "introduction"*/ '../views/NotFound.vue')
       }
     ]
+  },
+  {
+    path:'/',
+    redirect: '/article'
+  },
+  {
+    path: '/simulator',
+    name: 'Simulator',
+    component: () => import(/* webpackChunkName: "simulator" */ '../views/Simulator.vue')
   },
   {
     path: '/credits',
