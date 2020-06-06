@@ -1,6 +1,6 @@
 <template>
     <TextCard>
-        <NavButton prev='/article' next='/article/arquitetura-simples'></NavButton>
+        <NavButton prev='/' next='/arquitetura-simples'></NavButton>
         <Title>Níveis de Máquina</Title>
         <Content>
             Para que a máquina nos entenda e nossos comandos cheguem de fato em sua estrutura física, um longo e rápido caminho é feito. Quando as operações se aproximam do ser humano, chamamos de <Bold bolder>alto nível</Bold>; quando se aproxima da máquina, chamamos de <Bold bolder>baixo nível</Bold>.
@@ -8,7 +8,7 @@
             <br><br>Quando você <Bold bolder>compila</Bold> seu código, ele é transformado em Assembly. O Assembly é <Bold bolder>montado</Bold> para código binário, ou seja, as operações Assembly são transformadas em operações escritas apenas em 0 e 1. Então ocorre a <Bold bolder>Linkedição</Bold>, que é a inclusão das bibliotecas no seu código e a passagem de referências(por exemplo, quando você passa uma variável como parâmetro em uma função).
             <br><br>Agora seu código está pronto para ser executado. Os 0s e 1s equivalem a sinais elétricos baixos e altos respectivamente, que atuam na microarquitetura e consequentemente no nível <Bold bolder>lógico</Bold> da máquina.
         </Content>
-        <NavButton prev='/article' next='/article/arquitetura-simples'></NavButton>
+        <NavButton prev='/' next='/arquitetura-simples'></NavButton>
     </TextCard>
 </template>
 

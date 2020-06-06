@@ -1,6 +1,6 @@
 <template>
     <TextCard>
-        <NavButton prev='/article/arquitetura-simples' next='/article/cerebro-como'></NavButton>
+        <NavButton prev='/arquitetura-simples' next='/cerebro-como'></NavButton>
         <Title>O que faz o cérebro da máquina?</Title>
         <Content>
             Até aqui vimos a estrutura de um computador, mas o que fazer com ela?
@@ -43,7 +43,7 @@
             <Coding data="00000000100001010100000000100000000000001100011101001000001000000000000100001001000100000010001000000011111000000000000000001000" header="Bits"></Coding><br>
             É “só” isso que acontece para somar dois inteiros. Imagine operações mais complexas!
         </Content>
-        <NavButton prev='/article/arquitetura-simples' next='/article/cerebro-como'></NavButton>
+        <NavButton prev='/arquitetura-simples' next='/cerebro-como'></NavButton>
     </TextCard>
 </template>
 

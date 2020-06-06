@@ -2,7 +2,7 @@
   <header>
       <h1>Arquitetura Monociclo</h1>
       <div id="nav">
-          <router-link to='/article'>Artigo</router-link> |
+          <router-link to='/'>Artigo</router-link> |
           <router-link to='/simulator'>Simulador</router-link> |
           <router-link to="/credits">Créditos</router-link>
       </div>
@@ -51,10 +51,10 @@ export default {
         color: #f4f815;
     }
 
-    #nav a.router-link-active {
+    #nav a.router-link-exact-active {
     color: #f4f815;
     }
-    #nav a.router-link-active::selection{
+    #nav a.router-link-exact-active::selection{
         background-color: #f4f815;
         color: rgb(91, 184, 37);
         text-decoration-color: rgb(91, 184, 37);
