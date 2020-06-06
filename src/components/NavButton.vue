@@ -1,11 +1,11 @@
 <template>
   <div class="nav">
-      <div class="button" v-if="prev">
+      <div class="button prev" v-if="prev">
           <router-link :to="prev" >{{back}}</router-link>
-          <div class="radio"></div>
+          <span class="radio"></span>
       </div>
-      <div class="button" v-if="next">
-          <div class="radio"></div>
+      <div class="button next" v-if="next">
+          <span class="radio"></span>
           <router-link :to="next">{{front}}</router-link>
       </div>
   </div>
@@ -27,9 +27,7 @@ export default {
 <style scoped>
     .nav{
         width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        height: 30px;
         margin: 25px 0;
     }
     .button{
@@ -44,7 +42,7 @@ export default {
         background: #55ffff;
         color: black;
     }
-    .button div{
+    .button span{
         border: 1px solid #55ffff;
         border-radius: 50%;
         height: 0.7em;
@@ -57,9 +55,15 @@ export default {
     .button:hover > a{
         color: greenyellow;
     }
-    .button:hover > div{
+    .button:hover > span{
         border: 1px solid greenyellow;
         background: greenyellow;
         box-shadow: inset 0 0 0 0.15em rgb(0, 0, 0);
+    }
+    .prev{
+      float: left;
+    }
+    .next{
+      float: right;
     }
 </style>

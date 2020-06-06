@@ -67,4 +67,19 @@ export default {
     li{
         margin-left: 5%;
     }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    a::after{
+        content: '🔗';
+        padding: 0 3px;
+    }
+    a::selection{
+        background: white;
+        color: black;
+    }
 </style>

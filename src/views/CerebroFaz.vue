@@ -26,8 +26,7 @@
   int exemplo(int a, int b, int c, int d)
   {
       return (g+h) - (i+j);
-  }"></Coding>
-            <Title>=> C</Title>
+  }" header="C"></Coding><br>
             <Coding data="#assumimos que a foi armazenado em $a0, b em $a1, c em $a2 e d em $a3
             #rótulo:
             exemplo:
@@ -40,10 +39,8 @@
             #fim, retorna para o ponto de onde a função foi chamada
             jr $ra
             #fim do código Assembly
-            "></Coding>
-            <Title>=> Assembly</Title>
-            <Coding data="00000000100001010100000000100000000000001100011101001000001000000000000100001001000100000010001000000011111000000000000000001000"></Coding>
-            <Title>=> Bits</Title>
+            " header="Assembly"></Coding><br>
+            <Coding data="00000000100001010100000000100000000000001100011101001000001000000000000100001001000100000010001000000011111000000000000000001000" header="Bits"></Coding><br>
             É “só” isso que acontece para somar dois inteiros. Imagine operações mais complexas!
         </Content>
         <NavButton prev='/article/arquitetura-simples' next='/article/cerebro-como'></NavButton>

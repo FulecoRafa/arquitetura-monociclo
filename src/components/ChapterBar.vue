@@ -44,7 +44,7 @@ export default {
         position: fixed;
         top: 60px;
         height: 800px;
-        width: 160px;
+        width: 200px;
         border: 2px solid greenyellow;
         margin-top: 10px;
         display: flex;

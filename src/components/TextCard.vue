@@ -19,7 +19,7 @@ export default {
 <style>
     .card{
         max-width: 88%;
-        margin: 70px 0 0 180px;
+        margin: 70px 0 0 220px;
         border: 2px solid greenyellow;
         padding: 25px;
     }
