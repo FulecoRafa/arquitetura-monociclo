@@ -217,32 +217,6 @@ export const instructions = {
             {
                 text: "101010"
             },
-        ],
-        [
-            {
-                text: "voltar"
-            },
-            {
-                text: "jr"
-            },
-            {
-                text: "000000"
-            },
-            {
-                text: "$ra"
-            },
-            {
-                text: "00000"
-            },
-            {
-                text: "00000"
-            },
-            {
-                text: "00000"
-            },
-            {
-                text: "001000"
-            },
-        ],
+        ]
     ]
 }

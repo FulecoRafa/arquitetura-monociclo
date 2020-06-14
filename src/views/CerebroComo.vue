@@ -33,7 +33,7 @@
                 <li>Com exceção das instruções de desvio, as instruções foram feitas para que algum dado fosse escrito em algum registrador. A unidade de controle emitiu um sinal na porta <Bold>RegWrite</Bold> (escrita em registrador) do primeiro decodificador, então se escreve o dado no registrador de saída.</li>
                 <li>Assim termina-se o ciclo de instrução e parte-se para a próxima instrução.</li>
             </ol>
-            <br><br>Para ilustrar esse processo, vamos descrever o caminho dos dados de instruções e mostrar esse trajeto na arquitetura: <router-link to="/simulation">Acesse aqui o simulador!</router-link>
+            <br><br>Para ilustrar esse processo, vamos descrever o caminho dos dados de instruções e mostrar esse trajeto na arquitetura: <router-link to="/simulator">Acesse aqui o simulador!</router-link>
         </Content>
         <NavButton prev='/cerebro-faz' next='/end'></NavButton>
     </TextCard>

@@ -12,7 +12,7 @@ export default {
         chapters: [
             {
                 name: "Introdução",
-                link: ''
+                link: '/'
             },
             {
                 name: "Níveis de máquina",

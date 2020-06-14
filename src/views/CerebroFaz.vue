@@ -41,7 +41,7 @@
             #fim do código Assembly
             " header="Assembly"></Coding><br>
             <Coding data="00000000100001010100000000100000000000001100011101001000001000000000000100001001000100000010001000000011111000000000000000001000" header="Bits"></Coding><br>
-            É “só” isso que acontece para somar dois inteiros. Imagine operações mais complexas!
+            É “só” isso que acontece para subtrair duas somas de inteiros. Imagine operações mais complexas!
         </Content>
         <NavButton prev='/arquitetura-simples' next='/cerebro-como'></NavButton>
     </TextCard>

@@ -10,6 +10,22 @@
     <hr>
     <br>
       <p>Professor Orientador: Rodolfo Ipolito Meneguette</p>
+      <p>Referências:</p>
+      <ul>
+        <li><p>BRUSCHI, S. M. Arquitetura MIPS: caminho de dados (Monociclo). 29 slides. Disponível em: <Hyperlink to="https://edisciplinas.usp.br/course/view.php?id=74003">https://edisciplinas.usp.br/course/view.php?id=74003</Hyperlink>. Acesso em 26 abr. 2020.</p></li>
+        
+        <li><p>BRUSCHI, S. M. Arquitetura MIPS: unidade de controle (Monociclo). 15 slides. Disponível em: <Hyperlink to="https://edisciplinas.usp.br/course/view.php?id=74003">https://edisciplinas.usp.br/course/view.php?id=74003</Hyperlink>. Acesso em 26 abr. 2020.</p></li>
+        
+        <li><p>COE1502(MIPS2000) Architecture Instruction Set. Disponível em: <Hyperlink to="http://people.cs.pitt.edu/~don/coe1502/Reference/InstructionSet.html">http://people.cs.pitt.edu/~don/coe1502/Reference/InstructionSet.html</Hyperlink>. Acesso em 26 abr. 2020.</p></li>
+        
+        <li><p>PATTERSON, D. A.; HENNESSY, J. L. Computer organization and design. Elsevier, 2005.</p></li>
+
+        <li><p>BRUSCHI, S. M. Entrada e saída. 82 slides. Disponível em: <Hyperlink to="https://edisciplinas.usp.br/course/view.php?id=74003">https://edisciplinas.usp.br/course/view.php?id=74003</Hyperlink>. Acesso em 12 jun. 2020.</p></li>
+
+        <li><p>BRUSCHI, S. M. Hierarquia de memória - Memória Cache. 21 slides. Disponível em: <Hyperlink to="https://edisciplinas.usp.br/course/view.php?id=74003">https://edisciplinas.usp.br/course/view.php?id=74003</Hyperlink>. Acesso em 12 jun. 2020.</p></li>
+        
+        <li><p>BRUSCHI, S. M. Hierarquia de memória - Memória Cache (continuação). 33 slides. Disponível em: <Hyperlink to="https://edisciplinas.usp.br/course/view.php?id=74003">https://edisciplinas.usp.br/course/view.php?id=74003</Hyperlink>. Acesso em 12 jun. 2020.</p></li>
+      </ul>
     <hr>
     <br>
     <Hyperlink class="padd-it">Acesse aqui a monografia via e-mail USP</Hyperlink>
@@ -59,6 +75,9 @@ export default {
   }
   p{
     padding: 15px;
+  }
+  li *{
+    font-size: 0.75em;
   }
   .padd-it{
     padding: 25px;

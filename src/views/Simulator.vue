@@ -8,9 +8,9 @@
       <img  :class="{'hidden': selection != 3}" src="../assets/instructions/jump.gif" alt="Arquitetura">
     </div>
     <div class="selector">
-      <div class="option" :class="{'pressed': selection == 1}" @click="mark(1)"><span>Add || Tipo R</span></div>
-      <div class="option" :class="{'pressed': selection == 2}" @click="mark(2)"><span>LW || Tipo I</span></div>
-      <div class="option" :class="{'pressed': selection == 3}" @click="mark(3)"><span>Jump || Tipo J</span></div>
+      <div class="option" :class="{'pressed': selection == 1}" @click="mark(1)"><span>Add (Tipo R)</span></div>
+      <div class="option" :class="{'pressed': selection == 2}" @click="mark(2)"><span>LW (Tipo I)</span></div>
+      <div class="option" :class="{'pressed': selection == 3}" @click="mark(3)"><span>Jump (Tipo J)</span></div>
     </div>
     <div class="message"><span>Por que não vira o celular?</span></div>
   </div>
@@ -56,10 +56,10 @@ export default {
   }
   span{
     color: greenyellow;
-    font-size: 1.3em;
+    /* font-size: 1.3em; */
   }
   .view{
-    max-width: 63%;
+    max-width: 61%;
     border: 3px solid greenyellow;
   }
   .view img{
