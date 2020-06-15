@@ -28,7 +28,7 @@
       </ul>
     <hr>
     <br>
-    <Hyperlink class="padd-it">Acesse aqui a monografia via e-mail USP</Hyperlink>
+    <Hyperlink class="padd-it" to="https://docs.google.com/document/d/1Mg7Yjlxny92MZmMPOyqJmufax10NOqWYuQ87sdDK1R4/edit?usp=sharing">Acesse aqui a monografia via e-mail USP</Hyperlink>
     <p>Trabalho realizado como parte da matéria de Organização e Arquitetura de Computadores na <img src="../assets/usp-logo-3.png" alt="USP"> <img src="../assets/ICMC.png" alt="ICMC"> utilizando <img src="../assets/Vue-logo-001.svg" alt="Vue"> e <img src="../assets/aseprite.png" alt="Aseprite"></p>
     <Bold bolder>Grato por acessar nosso site!</Bold>
   </div>

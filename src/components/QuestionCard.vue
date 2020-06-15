@@ -40,7 +40,7 @@ export default {
         if(self.hideAnswer.charAt(i) == ' ') continue;
         let code = self.hideAnswer.charCodeAt(i);
         code += increment;
-        if(code > 0xdfb6) code -= 2*increment;
+        if(code > 0xdfb6 || code < 36) code -= 2*increment;
         self.hideAnswer = self.hideAnswer.substring(0, i) + String.fromCharCode(code) + self.hideAnswer.substring(i+1)
       }
     }, 500);
