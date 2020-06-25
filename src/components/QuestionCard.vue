@@ -2,7 +2,7 @@
   <div class="questionCard">
     <div class="question">{{question}}</div>
     <div class="show"><button @click="show = !show">Mostrar</button></div>
-    <div class="answer">{{shownAnswer}}</div>
+    <div class="answer" :class="{noBreak: !show}">{{shownAnswer}}</div>
   </div>
 </template>
 
@@ -81,5 +81,9 @@ export default {
 }
 .answer{
   grid-column: 1/13;
+}
+.noBreak{
+  white-space: nowrap;
+  overflow: hidden;
 }
 </style>
