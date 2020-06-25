@@ -15,6 +15,14 @@ export default {
   name: "app",
   components: {
     Header,
+  },
+  watch:{
+    $route: {
+      imediate: true,
+      handler(to){
+        document.title = to.name + " || Arquitetura Monociclo";
+      }
+    }
   }
 }
 </script>
